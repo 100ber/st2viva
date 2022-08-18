@@ -1,28 +1,30 @@
  <br>
  <div id="bg">  <br>
-            <h1 id="git">Get in touch</h1>
+            <h1 id="git" align="center">Get in touch</h1>
         <br>
         <form>
-            <div class="flex pad5">
-                <div >
+            <div class="pad5 row">
+                <div class="col-lg-6">
                     <input type="text" name="fname" placeholder="First Name" class="i1" id="i1" required>
                 </div>
-                <div class="pad4">
+                <div class="pad4 col-lg-6">
                     <input type="text" name="lname" placeholder="Last Name" class="i2" id="i2">
                 </div>
             </div>   
             <br>  
-            <div class="flex pad5">             
-            <div>
+            <div class=" pad5 row">             
+            <div class="col-lg-6">
                 <input type="email" name="email" placeholder="Email Id" class="i1" required>
             </div>
-            <div class="pad4">
+            <div class="pad4 col-lg-6">
                 <input type="text" name="number" placeholder="Mobile Number (Optional)" class="i2">
             </div>
             </div>
             <br>
-            <div id="tbd">
+            <div class="row" >
+            <div class="col-lg" align="center">
                 <textarea placeholder="Your Message" id="tb"></textarea>
+                </div>
             </div>
             <br>
             <div id="btn2">
